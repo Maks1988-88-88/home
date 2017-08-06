@@ -158,7 +158,7 @@ input {
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     height: 30px;
-    width: 300px;
+    width: 280px;
     margin: 5px 0 ;
     padding-left: 8px;
 }
@@ -167,7 +167,7 @@ button {
 	background: #1278D0;
     color: white;
     text-transform: uppercase;
-    width: 310px;
+    width: 293px;
     line-height: 30px;
     font-size: 16px;
     border-radius: 3px;
@@ -237,4 +237,12 @@ footer {
 input::after {
     content: "*";
     color:red;
+}
+
+.redinp{
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
 }
