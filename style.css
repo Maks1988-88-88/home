@@ -1,0 +1,240 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+
+body {
+background: #719EBB;
+
+}
+
+.wraper {
+	margin: 0px auto;
+	width: 900px;
+	background: white;
+	z-index: 1;
+	min-height: 100px;
+/*	padding-right: 30px;
+    padding-left: 30px;*/
+    position: relative;
+}
+
+header {
+	background-size: cover;
+	background-image: url(images/masthead.png);
+	margin-bottom: 15px; 
+}
+
+.img1 {
+	width: 100%;
+}
+
+
+
+.img2 {
+	width: 100%;
+}
+
+.img3 img {
+	width: 95%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.blue {
+	font-size: 20px;
+    padding-top: 6px;
+    font: bold normal 18px/26px Verdana,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 9px;
+    padding: 0px;
+
+}
+
+.red {
+	background: #CD1920;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	border-top: 1px solid #fff;
+}
+
+.float {
+float: left;
+}
+
+.float1 {
+float: left;
+width: 55%;
+}
+.float2 {
+float: left;
+width: 40%;
+}
+
+.float3 {
+float: left;
+width: 48%;
+}
+.float4 {
+float: right;
+width: 48%;
+}
+.float5 {
+float: right;
+}
+
+.float6 {
+float: left;
+margin-left: 15px;
+
+}
+
+.float2 img {
+	width: 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+.float6 h1 {
+    font: normal 24px/27px MyriadProSemibold,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 4px;
+    padding: 0px;
+}
+ .float6 h2 {
+    font: normal 12px/19px MyriadProSemibold,sans-serif;
+    color: #7e8285;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+ul {
+    font-size: 15px;
+    line-height: 26px;
+    margin-left: 26px;
+}
+
+.colornone {
+	background: none;
+}
+
+.red p {
+	text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.req {
+	color: red;
+	padding-left: 8px;
+    margin-top: 6px;
+}
+
+input {
+	background-color: #ffffff;
+    color: #1a2853;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    /* font-weight: normal!important; */
+    font-family: Verdana, sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    height: 30px;
+    width: 300px;
+    margin: 5px 0 ;
+    padding-left: 8px;
+}
+
+button {
+	background: #1278D0;
+    color: white;
+    text-transform: uppercase;
+    width: 310px;
+    line-height: 30px;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 6px 15px 6px;
+    font-weight: 800;
+}
+
+.inf {
+	margin: 0 25px;
+}
+
+.blue {
+
+}
+
+.companies { 
+    margin: 15px 0 15px 25px;
+}
+
+.text {
+    padding: 20px 30px;
+    background-color: #DFE6EC;
+    width: 800px;
+    margin: auto;
+    border-bottom: 10px;
+}
+
+.p1 {
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 12px
+}
+
+
+.p2{
+	line-height: 30px;
+	font-size: 12px
+}
+
+a {
+	text-align: center;
+    
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.anew {
+	text-transform: uppercase;
+}
+
+footer {
+	margin: 20px 0;
+}
+
+.white {
+	width: 900px;
+}
+
+.bottom {
+    margin: 0px auto;
+    height: 25px;
+    width: 930px;
+}
+
+input::after {
+    content: "*";
+    color:red;
+}
